@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import librarytest
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        PrintClass().do()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
