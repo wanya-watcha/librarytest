@@ -25,12 +25,13 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Wanya' => 'wanya@watcha.com' }
-  s.source           = { :git => 'https://github.com/Wanya/librarytest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:wanya-watcha/librarytest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'librarytest/Classes/**/*'
+  s.source_files = 'librarytest/Classes/ReplaceMe.swift'
+
   
   # s.resource_bundles = {
   #   'librarytest' => ['librarytest/Assets/*.png']
